@@ -17,3 +17,7 @@ Cinematic architectural interior concept for Mount Paradise Trawas East Java. Sp
 ## Evening gathering — assets/evening.jpg
 
 Cinematic architectural lifestyle concept for Mount Paradise, tropical highlands of Trawas East Java at blue hour. Intimate landscaped natural pond reflecting warm lanterns, refined circular sunken stone fire lounge set back from water, cream outdoor seating, small contained fire, three relaxed adults, one playing acoustic guitar. Warmly lit volcanic stone and exposed teak timber lodge with pitched dark tiled roof and covered veranda, dense tree ferns, flowering shrubs, rich horticulture and green volcanic mountain silhouettes. Warm amber lights against cool teal dusk, editorial photography, wide 3:2. No snow, tents, text or watermark.
+
+## Second design round
+
+The earlier community watercolor and actual villa reference photo are retired from the published site. The earlier Garden Lodge watercolor remains, alongside all approved cinematic scenes. The following assets were generated with the built-in Imagegen tool.
