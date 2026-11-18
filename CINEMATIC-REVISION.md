@@ -20,3 +20,9 @@ Removed the public footer development disclaimer, hero caution label and repeate
 ## Existing pilot reference photographs
 
 The supplied pilot photographs guide future artwork without replacing the established cinematic presentation: irregular grey stone masonry and paving, substantial warm timber and deep eaves, black-framed glazing, dark metal lanterns, tree ferns, pine-like woodland, clipped green hedges and restrained floral accents. Interiors combine timber with clean contemporary finishes; bathrooms use pale veined surfaces, dark fixtures and glass shower partitions. Preserve the private woodland atmosphere in both Phase 2 and Phase 3.
+
+## Arrival, circulation and balanced planting refinement
+
+Widen the valet forecourt, show cars moving toward the entrance and specify Indonesian right-hand-drive vehicles. Give the pool continuous generous tile decking with paths joining dry circulation. Set tennis farther from the gym with generous run-off and landscape separation. Restore small realistic purple, pink and white flower accents among predominantly green planting across arrival, recreation, Clubhouse, cafe and BBQ imagery.
+
+Additional supplied arrival references: long tree-lined paved approach opening into a generous motor court; layered tree canopies, sculptural trunks, clipped hedges, burgundy foliage and occasional small flowers. Use this arrival sequence and botanical variety in future visuals.
