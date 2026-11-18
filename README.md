@@ -27,3 +27,7 @@ Local links and asset paths checked across all six pages. Round-two browser revi
 ## Unified collection
 
 The main `lodges.html` page contains all seven designs grouped into four proposed tiers. `lodge-tiers.html` is now a concise comparison table linking back to each design. Both pages are built from `scripts/tiers.py`. All 13 approved artwork assets are used. The actual villa photograph and retired community watercolor remain excluded. Tier assignments for the original designs are provisional design groupings, not pricing commitments.
+
+## Phase 2 community and club
+
+The Vision page describes the proposed central community lodge, Club Membership, tennis court, full-size pool, spa/baths, intimate restaurant/café, gated private arrival and golf-cart circulation on stone roads. The Land page links the Phase 2 summary to the membership section. Membership terms remain undefined; amenities are presented as planned. Recovery started from clean commit `fd5430c`; no approved artwork was replaced or regenerated. Validation checked all seven pages, local links and anchors, all 13 artwork placements and all seven lodge designs. This update has not received a fresh browser visual review.
