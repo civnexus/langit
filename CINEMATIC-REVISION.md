@@ -16,3 +16,7 @@ The Clubhouse retains its approved scale and exterior architecture. The restaura
 New reference-guided visuals: restaurant/bar/patio, valet arrival with sports cars and guests, and gym/tennis pavilion. Clubhouse, café terrace and private BBQ terrace landscaping edited toward green ferns, grasses, moss and restrained shrubs, removing distracting floral borders. Original assets remain archived unchanged.
 
 Removed the public footer development disclaimer, hero caution label and repeated specification caveats at the user's request. Project descriptions retain the forward-looking development context without presenting these facilities as operating today.
+
+## Existing pilot reference photographs
+
+The supplied pilot photographs guide future artwork without replacing the established cinematic presentation: irregular grey stone masonry and paving, substantial warm timber and deep eaves, black-framed glazing, dark metal lanterns, tree ferns, pine-like woodland, clipped green hedges and restrained floral accents. Interiors combine timber with clean contemporary finishes; bathrooms use pale veined surfaces, dark fixtures and glass shower partitions. Preserve the private woodland atmosphere in both Phase 2 and Phase 3.
