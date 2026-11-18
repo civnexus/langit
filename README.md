@@ -17,7 +17,7 @@ Home, Vision, Clubhouse, Private Lodges, Lodge Comparison, Garden Lodge, Mountai
 
 Mountain Cabins form the entry category, followed by Retreat, Family, Reserve and Estate lodge tiers. Eight designs are shown in total. Plot sizes, room counts, pricing and final specifications remain in development.
 
-The Clubhouse is the shared heart of Phase 2, with a full-size pool, planned tennis court, spa/baths, restaurant/café and members’ lounges. Membership terms remain in development. The Vision page offers a concise visual overview and links to the dedicated Clubhouse page.
+The Clubhouse is the social heart of Phase 2, with a restaurant/bar, mountain patio, relaxed café, lounges and valet arrival for weddings and private events. The pool garden connects it to a separate Recreation Pavilion (gym and tennis) and a quieter Spa Pavilion. Membership terms remain in development. The Vision page offers a concise visual overview and links to the dedicated Clubhouse page.
 
 ## Artwork
 
@@ -28,3 +28,5 @@ All visuals are concepts. Phase 1 is the existing built pilot; Phase 2 covers 10
 ## Verification
 
 November 19 revision: all eight pages checked for valid local links, assets, anchors and unique IDs. Published HTML checked for removal of retired watercolor references and old community-lodge wording. Desktop Clubhouse and 390px mobile Vision/collection layouts reviewed, including mobile navigation. A full device/browser matrix has not been tested.
+
+The hospitality revision adds reference-guided restaurant, valet-arrival and recreation visuals, plus calmer green planting for the Clubhouse, café and BBQ terrace. Public disclaimer blocks were removed at the user’s request.
