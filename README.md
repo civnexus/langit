@@ -1,6 +1,6 @@
 # Mount Paradise
 
-A six-page architectural concept website for a proposed mountain community in Trawas, East Java.
+A seven-page architectural concept website for a proposed mountain community in Trawas, East Java.
 
 Live site: https://civnexus.github.io/langit/
 
@@ -19,3 +19,7 @@ Renderings and the watercolor community layout are conceptual. They do not estab
 ## Verification
 
 Local links and asset paths checked across all six pages. Round-two browser review checked desktop lodge layouts and a 390px-wide mobile phase timeline. Local validation checked every page/asset link, all nine retained/new artwork placements and removal of retired image references and old phase labels. A full device/browser matrix has not been tested.
+
+## Expanded lodge collection
+
+`lodge-tiers.html` adds Retreat, Family, Reserve and Estate concepts. Content is in `scripts/tiers.py`; original lodge styles remain in place. Four new built-in Imagegen artworks and prompts are in `assets/` and `TIER-PROMPTS.md`. Tiers describe proposed space and amenities, not fixed pricing or approved specifications. Desktop and 390px mobile layouts were reviewed.
