@@ -5,25 +5,51 @@ tiers = [
     dict(slug='ridge-reserve', name='Ridge Reserve', tier='Tier 3 / Reserve', tagline='More room<br>for the view.', desc='A tall glazed gable and a lower stone wing create a more expressive mountain home. An upper balcony overlooks the grounds, while the main terrace opens to a generous lawn and a long pool facing the landscape.', garden='Generous landscaped yard with distinct lounging and lawn areas', water='An elongated pool along the view terrace', entertaining='Covered outdoor kitchen with a built-in BBQ grill and dining for eight', form='Split-level residence with a tall gable and upper balcony', brief='A larger home for extended stays and generous entertaining', alt='Ridge Reserve split-level lodge with upper balcony, large private lawn, pool and covered BBQ outdoor kitchen'),
     dict(slug='paradise-estate', name='Paradise Estate', tier='Tier 4 / Estate', tagline='Bring everyone.<br>There is room.', desc='A private estate conceived around gathering, with substantial residential wings and a shared living hall. The grounds become a sequence of outdoor rooms: a broad lawn, a pool terrace, a dining space and a separate fire lounge.', garden='Expansive private grounds with a large usable lawn and mature planting', water='A long private pool with space to relax alongside', entertaining='Full outdoor kitchen with BBQ grill, dining for twelve and a separate fire lounge', form='Multiple connected residential wings with varied roof heights', brief='A flagship retreat for family gatherings and hosting', alt='Large Paradise Estate with connected stone and timber wings, expansive lawn, pool, outdoor BBQ kitchen and garden fire lounge'),
 ]
-hero_alts.update({t['slug']:t['alt'] for t in tiers})
-body = hero('paradise-estate', 'The expanded lodge collection', 'Four tiers.<br><em>More ways to belong.</em>', 'From a quiet garden retreat to an expansive private estate.')
-body += intro('Space, comfort and possibilities', 'Find your scale<br>of mountain living.', 'Retreat, Family, Reserve and Estate explore different levels of space and amenity within the Mount Paradise style. Each keeps natural stone, warm timber and a private garden at its heart. These are proposed design tiers; pricing, dimensions and final specifications are yet to be established.')
-body += '<section class="section tier-overview" id="discover"><p class="eyebrow">Explore the four tiers</p><div class="tier-links">'
-for t in tiers:
-    body += f'<a href="#{t["slug"]}"><span>{t["tier"]}</span><strong>{t["name"]}</strong><small>{t["brief"]} ↘</small></a>'
-body += '</div></section>'
-for t in tiers:
-    body += f'''<section class="section tier-story" id="{t['slug']}"><div class="section-heading"><div><p class="eyebrow">{t['tier']}</p><h2>{t['name']}</h2></div><p class="tier-brief">{t['brief']}</p></div>{pic(t['slug'],t['alt'], t['name']+' · Proposed architectural concept')}<div class="tier-copy"><div><h3>{t['tagline']}</h3><p>{t['desc']}</p></div><dl><div><dt>Architecture</dt><dd>{t['form']}</dd></div><div><dt>Private yard</dt><dd>{t['garden']}</dd></div><div><dt>Water</dt><dd>{t['water']}</dd></div><div><dt>Gathering outdoors</dt><dd>{t['entertaining']}</dd></div></dl></div></section>'''
-body += '<section class="section dark"><p class="eyebrow">The collection at a glance</p><h2>How the tiers differ.</h2><div class="tier-table-wrap"><table class="tier-table"><caption>Proposed outdoor spaces and amenities by lodge tier</caption><thead><tr><th scope="col">Tier</th><th scope="col">Private garden</th><th scope="col">Pool</th><th scope="col">Outdoor dining</th></tr></thead><tbody>'
-for t in tiers:
-    body += f'<tr><th scope="row">{t["name"]}</th><td>{t["garden"]}</td><td>{t["water"]}</td><td>{t["entertaining"]}</td></tr>'
-body += '</tbody></table></div><p class="note spacing">Design concepts for discussion. Final room counts, areas, layouts and amenities will depend on detailed design and individual sites.</p></section>'
-body += f'<section class="section"><div class="split"><h2>One collection.<br>Many expressions.</h2><div><p>The original Garden, Vista and Forest styles remain part of the collection. Explore them alongside these new tiers to find the materials, proportions and outdoor spaces that appeal to you.</p>{link("lodges.html", "Return to the original lodge styles")}</div></div></section>'
-pages['lodge-tiers.html'] = ('Lodge tiers & private estates', body)
-# Add the new collection without removing the existing three styles.
-title, old = pages['lodges.html']
-old = old.replace('Three styles.<br><em>One mountain spirit.</em>', 'Mountain homes.<br><em>With room to choose.</em>')
-addition = f'''<section class="section plan-preview"><div class="section-heading"><div><p class="eyebrow">New / Explore the lodge tiers</p><h2>A retreat.<br>A family home.<br>Your own estate.</h2></div>{link('lodge-tiers.html','Explore all four tiers')}</div>{pic('ridge-reserve','Ridge Reserve with a generous lawn, pool and outdoor BBQ kitchen','New collection · Reserve tier')}<p class="spacing">Four additional concepts explore increasing space and amenities, from the intimate Fern Retreat to Paradise Estate. Generous private yards and dedicated BBQ kitchens define the upper tiers.</p></section>'''
-pages['lodges.html'] = (title, old + addition)
-title, old = pages['index.html']
-pages['index.html'] = (title, old + f'<section class="section"><div class="split"><h2>More ways<br>to make it yours.</h2><div><p>Discover four new lodge tiers: Retreat, Family, Reserve and Estate. Explore different footprints, gardens and spaces for gathering, all within the Mount Paradise architectural family.</p>{link("lodge-tiers.html", "Discover the expanded collection")}</div></div></section>')
+# A single public collection: original styles and new concepts share four proposed tiers.
+originals = [
+ dict(slug='garden-lodge',image='original-watercolor',name='Garden Lodge',tier='Tier 2 / Family',desc='A broad sheltered veranda connects the living room to a private garden and pool. The original watercolor captures the warm, grounded character of this style.',garden='Private planted garden and pool terrace',water='Private pool',entertaining='BBQ dining terrace',form='Single-storey garden-facing home',alt='Original Garden Lodge architectural watercolor with stone walls timber veranda and private pool'),
+ dict(slug='forest-lodge',image='forest-style',name='Forest Lodge',tier='Tier 2 / Family',desc='A more vertical home among the trees. An upper balcony and a sheltered garden level offer separate places to gather and retreat, with a plunge pool within the planting.',garden='Terraced garden with shaded corners',water='Private plunge pool',entertaining='Sheltered garden dining',form='Two-storey lodge with upper balcony',alt='Forest Lodge watercolor showing two storeys a timber balcony and planted pool garden'),
+ dict(slug='vista-lodge',image='vista',name='Vista Lodge',tier='Tier 3 / Reserve',desc='A long frontage and generous veranda place the outlook at the center of the home. The pool and garden run alongside the terrace, with room for a dedicated BBQ area and outdoor dining.',garden='Generous view-facing garden and terrace',water='Long private pool',entertaining='Dedicated BBQ and outdoor dining area',form='Broad horizontal residence',alt='Cinematic Vista Lodge with long pool generous terrace and volcanic mountain outlook')
+]
+collection=[tiers[0],originals[0],originals[1],tiers[1],originals[2],tiers[2],tiers[3]]
+for t in collection:t.setdefault('image',t['slug'])
+body='''<section class="page-heading"><p class="eyebrow">The complete private lodge collection</p><h1>Seven expressions.<br><em>One mountain spirit.</em></h1><p>Explore every Mount Paradise lodge, from an intimate retreat to a private estate.</p></section>'''
+body+='''<section class="section collection-intro" id="discover"><div class="split"><div><p>Four proposed tiers organize the collection by space and outdoor amenities. Every design shares natural stone, warm timber and a private relationship with the garden.</p></div><div><p>The tier groupings are a design framework. Plot areas, room counts, specifications and pricing will be established through detailed planning.</p>'''+link('lodge-tiers.html','Compare the tiers')+'</div></div><nav class="collection-jumps" aria-label="Lodge tiers">'
+for key,label in [('retreat','01 / Retreat'),('family','02 / Family'),('reserve','03 / Reserve'),('estate','04 / Estate')]:body+=f'<a href="#tier-{key}">{label} ↓</a>'
+body+='</nav></section>'
+notes={'Retreat':('An intimate escape.','A compact home with a personal garden and the comfort of a sheltered veranda.'),'Family':('Space for daily life.','Three interpretations of family living: a garden veranda, a forest balcony or an open courtyard.'),'Reserve':('Room to host beautifully.','Generous grounds, private pools and dedicated BBQ areas for gathering outdoors.'),'Estate':('A private world of your own.','An expansive home and garden with separate places for dining, swimming and evenings by the fire.')}
+for n,key in enumerate(['Retreat','Family','Reserve','Estate'],1):
+ heading,desc=notes[key]
+ body+=f'<section class="section collection-group" id="tier-{key.lower()}"><div class="section-heading"><div><p class="eyebrow">Tier {n} / {key}</p><h2>{heading}</h2></div><p class="tier-brief">{desc}</p></div>'
+ for t in collection:
+  if t['tier']!=f'Tier {n} / {key}':continue
+  body+=f'''<article class="collection-lodge" id="{t['slug']}">{pic(t['image'],t['alt'],t['name']+' · Proposed architectural concept')}<div class="collection-details"><div><h3>{t['name']}</h3><p>{t['desc']}</p>'''
+  if t['slug']=='garden-lodge':body+=link('garden-lodge.html','Inside the Garden Lodge')
+  body+=f'''</div><dl><div><dt>Architecture</dt><dd>{t['form']}</dd></div><div><dt>Private grounds</dt><dd>{t['garden']}</dd></div><div><dt>Pool</dt><dd>{t['water']}</dd></div><div><dt>Outdoor living</dt><dd>{t['entertaining']}</dd></div></dl></div></article>'''
+ body+='</section>'
+body+=f'<section class="section dark"><div class="split"><h2>Which feels<br>like your home?</h2><div><p>Compare the tiers by garden character, pool and outdoor entertaining, or explore the daily rituals that inspired the collection.</p>{link("lodge-tiers.html","Compare space and amenities")}<br>{link("living.html","Discover mountain living")}</div></div></section>'
+pages['lodges.html']=('The complete lodge collection',body)
+# The comparison URL remains useful, with no duplicate gallery.
+compare='''<section class="page-heading"><p class="eyebrow">A guide to the collection</p><h1>Choose your<br><em>way of living.</em></h1><p>Compare all seven designs across four proposed tiers.</p></section><section class="section comparison-page" id="discover"><div class="tier-table-wrap"><table class="tier-table"><caption>Concept comparison · Final specifications and pricing remain in development.</caption><thead><tr><th scope="col">Lodge / Tier</th><th scope="col">Private grounds</th><th scope="col">Pool</th><th scope="col">Outdoor living</th></tr></thead><tbody>'''
+for t in collection:
+ compare+=f'<tr id="{t["slug"]}"><th scope="row"><a href="lodges.html#{t["slug"]}">{t["name"]} ↗</a><small>{t["tier"]}</small></th><td>{t["garden"]}</td><td>{t["water"]}</td><td>{t["entertaining"]}</td></tr>'
+compare+='</tbody></table></div></section>'+intro('Planning a home around you','Begin with how<br>you spend your time.','Consider how often you host, how much garden you would like to enjoy, and whether you prefer a single level or a more vertical home. Each lodge is a starting point for detailed design, with its final arrangement shaped by the individual site.')+f'<section class="section tier-overview">{link("lodges.html","View every lodge and its artwork")}</section>'
+pages['lodge-tiers.html']=('Compare lodge tiers',compare)
+# Give each editorial page its own imagery and purpose.
+title,home=pages['index.html']
+home=home.replace('Garden, Vista and Forest: three architectural styles with different relationships to the land. Explore their proportions, outdoor spaces and material character.','Seven lodge designs span four tiers: Retreat, Family, Reserve and Estate. Explore the complete collection, from intimate garden homes to expansive private grounds.')
+home=home.replace('assets/interior.jpg','assets/paradise-estate.jpg').replace('Warm timber and volcanic stone living room opening to a mountain garden','Paradise Estate with expansive gardens and outdoor entertaining')
+home=home.replace(pic('evening','Friends sharing guitar music beside a garden pond and fire lounge'),'<p class="home-lifestyle">Morning tea beneath the eaves. Lunch from your own grill. An evening of music beside the pond. Discover the places and rituals that make a day here feel different.</p>')
+pages['index.html']=(title,home)
+# Use the interior on the vision page; the morning terrace belongs to Mountain Living.
+title,vision=pages['vision.html']
+vision=vision.replace('assets/terrace.jpg','assets/interior.jpg').replace('Stone timber and lush planting framing a sheltered morning terrace','Warm stone and timber lodge interior opening onto a garden')
+pages['vision.html']=(title,vision)
+# Garden detail emphasizes the original watercolor and dining design, not a repeated interior.
+title,garden=pages['garden-lodge.html']
+garden=garden.replace(pic('interior','Garden Lodge interior with warm timber furniture and doors opening onto the pool','Garden Lodge · Interior direction'),pic('original-watercolor','Original Garden Lodge watercolor showing veranda pool and garden','Garden Lodge · Architectural direction'))
+pages['garden-lodge.html']=(title,garden)
+# Keep the full BBQ scene on the detail page; lifestyle focuses on the daily experience.
+title,living=pages['living.html']
+living=living.replace(pic('dining','Garden BBQ terrace ready for an unhurried lunch','A private afternoon · Lifestyle concept'),'<div class="dining-note"><p class="eyebrow">Designed for gathering</p><h3>From the grill<br>to the garden table.</h3><p>A shaded dining area, a preparation counter and a generous table make outdoor hosting part of the home.</p>'+link('garden-lodge.html','Explore the BBQ terrace')+'</div>')
+pages['living.html']=(title,living)

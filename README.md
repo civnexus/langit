@@ -23,3 +23,7 @@ Local links and asset paths checked across all six pages. Round-two browser revi
 ## Expanded lodge collection
 
 `lodge-tiers.html` adds Retreat, Family, Reserve and Estate concepts. Content is in `scripts/tiers.py`; original lodge styles remain in place. Four new built-in Imagegen artworks and prompts are in `assets/` and `TIER-PROMPTS.md`. Tiers describe proposed space and amenities, not fixed pricing or approved specifications. Desktop and 390px mobile layouts were reviewed.
+
+## Unified collection
+
+The main `lodges.html` page contains all seven designs grouped into four proposed tiers. `lodge-tiers.html` is now a concise comparison table linking back to each design. Both pages are built from `scripts/tiers.py`. All 13 approved artwork assets are used. The actual villa photograph and retired community watercolor remain excluded. Tier assignments for the original designs are provisional design groupings, not pricing commitments.
