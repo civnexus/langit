@@ -44,3 +44,14 @@ Current host https://langit-three.vercel.app. Build SITE_URL environment variabl
 - Arvorest images are illustrative mood studies, pending genuine grounds photography.
 - Each active page has at least five distinct images; homepage previews link to editorial chapters.
 - Former pages redirect to their consolidated chapters.
+
+
+## Architectural continuity revision
+- The approved poolside main-lodge.jpg is the design anchor and retained homepage hero. All new lodge views derive from it.
+- Connected hotel wings: ambition of 100+ rooms including suites, mountain outlooks both sides. Private cabins/lodges scattered in extended areas, mostly privately owned; selected rentals possible.
+- No image captions or View image labels. Images still enlarge accessibly.
+- Homepage leads with Main Lodge, dining/lifestyle, baths/recreation, gardens, club and Garden Lodge before occasions.
+- Forest Lodge last in Lodges category.
+- Arboretum & Gardens top-level immediately before Wellness & Recreation.
+- Footer displays info@mountparadisejava.com explicitly.
+- Wellness leads with substantial destination bathhouse and volcanic mountain spring-water narrative, with sensory renewal language rather than unverified mineral concentrations or pH claims.
