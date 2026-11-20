@@ -2,8 +2,8 @@ from pathlib import Path
 from html import escape
 import os,re
 R=Path(__file__).resolve().parent.parent
-# Canonical remains on the working host until the custom domain is connected.
-BASE=os.environ.get('SITE_URL','https://langit-three.vercel.app').rstrip('/')
+# The custom domain is connected to the GitHub-backed Vercel deployment.
+BASE=os.environ.get('SITE_URL','https://mountparadisejava.com').rstrip('/')
 nav=[('stay.html','Stay'),('gather.html','Gather'),('residences.html','Residences'),('wellness.html','Wellness'),('800-club.html','800 Club'),('discover.html','Discover')]
 def link(url,label):return f'<a class="text-link" href="{escape(url,quote=True)}">{label}</a>'
 def pic(name,alt,caption='Mount Paradise / Architectural vision',cls=''):
