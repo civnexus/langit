@@ -31,3 +31,16 @@ Owner's eventual overall ambition: approximately 40–50 hectares, not a claim o
 
 ## Publication and sharing
 Current host https://langit-three.vercel.app. Build SITE_URL environment variable controls canonical, sitemap and social image host. When custom domain is connected, rebuild with SITE_URL=https://mountparadisejava.com. No DNS changes are made by this revision. Sharing image: assets/mount-paradise-social.jpg, 1200x630 JPEG using approved Main Lodge. Full OG and Twitter large-image metadata on all pages. The supplied mailbox is used in mailto links; mailbox provisioning is outside the site.
+
+
+## Vision-led revision, 20 November 2026
+- Nine active chapters: Home, Discover, Main Lodge, Occasions, Residences, Wellness & Recreation, 800 Club, Arvorest Woods, Arboretum & botanical gardens.
+- All active pages accessible from main navigation; Discover dropdown includes Home, story, gardens and Arvorest.
+- No hotel/facility bookings or event quote requests. Occasions illustrates conference, leadership and wedding concepts on one page.
+- Residences: one catalogue with eight models under Cabins (Mountain Cabin, Garden Cabin), Lodges (Garden, Forest, Courtyard, Vista), Estates (Ridge, Paradise). Sales enquiries to sales@mountparadisejava.com.
+- Former Fern Retreat is Garden Cabin; former Orchard Family Lodge is Courtyard Lodge. Ridge Reserve is Ridge Estate.
+- Wellness includes Mountain Baths, indoor pool, gym, tennis, padel and racquetball.
+- 800 Club centers on whiskey bar, library, dedicated cigar lounge, billiards, private dining and cultural evenings.
+- Arvorest images are illustrative mood studies, pending genuine grounds photography.
+- Each active page has at least five distinct images; homepage previews link to editorial chapters.
+- Former pages redirect to their consolidated chapters.

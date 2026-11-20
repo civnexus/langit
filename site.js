@@ -4,3 +4,6 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.conta
 const dialog=document.querySelector('.lightbox');let opener;
 document.querySelectorAll('[data-lightbox]').forEach(a=>a.addEventListener('click',e=>{if(!dialog.showModal)return;e.preventDefault();opener=a;dialog.querySelector('img').src=a.href;dialog.querySelector('img').alt=a.querySelector('img').alt;dialog.querySelector('p').textContent=a.closest('figure').querySelector('figcaption').firstChild.textContent;dialog.showModal()}));
 dialog.querySelector('button').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});dialog.addEventListener('close',()=>opener?.focus());
+const navDetails=document.querySelectorAll('.nav-group');
+document.addEventListener('click',e=>{navDetails.forEach(d=>{if(!d.contains(e.target))d.open=false})});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')navDetails.forEach(d=>d.open=false)});
