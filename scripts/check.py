@@ -18,7 +18,7 @@ for name,p in pages.items():
  if 'http-equiv="refresh"' in (R/name).read_text():continue
  if len(set(p.ids))!=len(p.ids):errors.append((name,'duplicate ids'))
  if p.h1!=1:errors.append((name,'heading count',p.h1))
- images=set(r for r in p.refs if r.startswith('assets/') and r.endswith('.jpg'))
+ images=set(r for r in p.refs if r.startswith('assets/') and urlsplit(r).path.endswith('.jpg'))
  if len(images)<5:errors.append((name,'fewer than 5 distinct images',len(images)))
  if p.forms:errors.append((name,'unexpected form'))
  for key in ['description','og:title','og:description','og:image','og:image:width','og:image:height','twitter:card']:
