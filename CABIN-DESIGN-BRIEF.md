@@ -12,10 +12,12 @@ Retain the simple gabled roof, horizontal timber cladding, volcanic-stone base a
 
 ## Garden Cabin
 
-Retain the broad garden-facing veranda, glazed living frontage, timber posts and strong stone gable. Preliminary enclosed-area target: approximately 65–75 m², with the veranda additional. Living, kitchen and indoor dining occupy the wider shared zone; a full-height partition separates the bedroom zone, with a bathroom and storage behind. Explore adjacent kitchen and bathroom service runs without compromising bathroom access or bedroom privacy.
+Retain the broad garden-facing veranda, glazed living frontage, timber posts and strong stone gable. The preliminary layout uses a 10.0 × 7.5 m external footprint (75 m² gross enclosed) plus a 10.0 × 2.2 m covered veranda (22 m²). Living, kitchen and indoor dining occupy the wider shared zone; a full-height partition separates the bedroom zone, with a bathroom and storage behind. The bedroom has 3.4 × 3.4 m clear space with a queen bed; bathroom 2.0 × 2.4 m; wardrobe/store 1.2 × 2.4 m. A 0.9 m shared passage connects these rooms to the living zone. Pocket doors avoid furniture conflicts. The bathroom is in the rear-right corner, with a high side window, and is accessible without entering the bedroom. Indicative walls are 200 mm.
+
+See [dimensioned concept layout](design/garden-cabin-layout.pdf). The revised exterior expresses a solid partition between living and sleeping spaces and a deeper right side return. Rendered proportions still need reconciliation with the schematic in architectural drawings.
 
 ## Next design pass
 
 Start with scaled furniture and circulation studies, then establish external dimensions and wall thicknesses. Test actual bed and wardrobe clearances, kitchen work surfaces, a usable dining table, shower/WC/basin placement, door swings, storage, roof structure and the relationship between glazing and internal partitions. Reconcile revised exterior elevations with the plan before handing the concept to the architect for site-specific design and finalization.
 
-The images establish architectural character and intended room capacity. They do not yet verify a dimensioned floor plan.
+The images establish architectural character and intended room capacity. The Garden Cabin now has a preliminary dimensioned spatial study; neither model is construction documentation.
