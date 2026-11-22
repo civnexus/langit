@@ -12,7 +12,7 @@ Retain the simple gabled roof, horizontal timber cladding, volcanic-stone base a
 
 ## Garden Cabin
 
-Selected direction: Concept A, a simple rectangular cabin with a broad veranda and continuous tiled roof. The private bedroom is on the LEFT within a volcanic-stone enclosure. Living, compact kitchen and indoor dining are on the RIGHT. The approach path arrives from the right directly into the living area, avoiding circulation past the bedroom. The bathroom belongs behind the bedroom, accessed from a shared internal passage.
+Selected direction: Concept A, a simple rectangular cabin with a broad veranda and continuous tiled roof. The private bedroom is on the LEFT within a volcanic-stone enclosure. Living, compact kitchen and indoor dining are on the RIGHT. The curving approach aligns directly with broad steps and the main living entrance. Bedroom frontage uses sill-height windows with stone below, not external bedroom doors; access is internal, avoiding circulation past the bedroom. The bathroom belongs behind the bedroom, accessed from a shared internal passage.
 
 Working area target remains approximately 75 m² gross enclosed plus a 22 m² veranda. The earlier [spatial study](design/garden-cabin-layout.pdf) is superseded in orientation: it showed the bedroom on the right. Revise that study to match selected Concept A before architectural development. Its dimensions remain exploratory, not approved construction dimensions.
 
