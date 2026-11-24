@@ -44,7 +44,7 @@ for file,(title,body) in pages.items():
   'occasions.html':('occasions-social', 'Extraordinary Occasions | Mount Paradise', 'Imagine private mountain weddings, corporate retreats and meaningful celebrations, with garden settings and welcoming gathering spaces at Mount Paradise.', 'A mountain garden wedding setting at Mount Paradise'),
   'botanical-gardens.html':('gardens-social','Arboretum & Gardens | Mount Paradise','Discover a vision of remarkable trees, fern walks, flowering gardens and mountain water landscapes at Mount Paradise in Trawas, East Java.','The arboretum and botanical gardens at Mount Paradise'),
   'wellness.html':('wellness-social','Wellness & Recreation | Mount Paradise','Explore the vision for mountain spring baths, spa rituals, indoor swimming and outdoor sport in the cool mountain air of Trawas, East Java.','Mountain spring baths and spa terraces at Mount Paradise'),
-  '800-club.html':('800-club-social','800 Club | Mount Paradise','Discover a private mountain club envisioned for rare whiskeys, a cigar lounge, books, billiards and good company in Trawas, East Java.','The 800 Club library and lounge at Mount Paradise')
+  '800-club.html':('800-club-social','800 Club | Mount Paradise','Discover a private mountain club envisioned for rare whiskeys, fine wines, a cigar lounge, books, billiards and good company in Trawas, East Java.','The 800 Club library and lounge at Mount Paradise')
  }
  if file in previews:
   socialname,ogtitle,previewdesc,socialalt=previews[file]
